@@ -26,8 +26,7 @@ let readAsm f =
     | ex -> (Bad, f)
 [<EntryPoint>]
 let main argv = 
-    printfn "%A" argv
-    let d = @"."
+    let d = argv.[0]
     let files = Directory.GetFiles(d, "*.dll", SearchOption.AllDirectories)
     let all = 
         files
