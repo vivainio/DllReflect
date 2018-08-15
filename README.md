@@ -1,6 +1,6 @@
 # DllReflect
 
-Check if directory contains debug or release dlls (for dotnet dlls).
+Check if directory (or any subdir) contains debug or release dlls (for dotnet dlls).
 
 Usage: 
 ```
